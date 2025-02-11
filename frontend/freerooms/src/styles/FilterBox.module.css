@@ -1,0 +1,21 @@
+.filterBox {
+    height: 6vh;
+    padding: 0.01vw 2vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ef6c00;
+    transition: all 0.2s ease-in-out;
+    color: #ef6c00;
+    align-items: center;
+    gap: 1vw;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.filterBox:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

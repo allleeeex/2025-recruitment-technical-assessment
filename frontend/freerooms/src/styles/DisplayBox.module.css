@@ -1,0 +1,59 @@
+.displayBox {
+    min-height: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+.displayBox:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.topBar {
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.bottomBar {
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.roomBadge {
+    top: 10px;
+    left: 10px;
+    background: white;
+    color: black;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+  
+.buildingName {
+    width: 100%;
+    background: #e56a36;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+  

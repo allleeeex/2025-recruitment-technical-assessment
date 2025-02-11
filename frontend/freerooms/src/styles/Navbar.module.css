@@ -1,0 +1,43 @@
+.navBar {
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 16px;
+    gap: 0.7vw;
+    flex-wrap: wrap;
+}
+
+.logoBox {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    opacity: 1;
+    transition: all 0.1s ease-in-out;
+}
+
+.logoBox:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.navItem {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.websiteName {
+    letter-spacing: 0.00938em;
+    color: #ef6c00;
+    font-weight: 550;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+}
+  
+.test {
+    background-color: red;
+}

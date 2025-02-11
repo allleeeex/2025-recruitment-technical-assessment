@@ -1,0 +1,6 @@
+.utilityBar {
+    display: flex;
+    padding: 1vw 1vh;
+    align-items: center;
+    justify-content: space-between;
+}
